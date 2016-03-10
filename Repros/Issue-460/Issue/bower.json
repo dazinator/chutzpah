@@ -1,0 +1,11 @@
+{
+  "name": "ASP.NET",
+  "private": true,
+  "dependencies": {
+    "requirejs": "2.1.22",
+    "qunit": "1.22.0",
+    "jquery": "2.2.1",
+    "bootstrap": "3.3.5"
+
+  }
+}

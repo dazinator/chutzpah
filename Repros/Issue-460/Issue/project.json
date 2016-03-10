@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "description": "Chutzpah Issue",
+  "authors": [ "Darrell.Tunnell" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { },
+  },
+  "dependencies": {
+    "Chutzpah": "4.2.0",
+    "qunit": "1.0.0"   
+  }
+}

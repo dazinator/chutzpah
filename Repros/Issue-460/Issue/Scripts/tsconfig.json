@@ -1,0 +1,17 @@
+{
+  "version": "1.8.0",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es5",
+    "outDir": "../wwwroot",
+    "outFile": "../wwwroot/out/concat.js",
+    "module": "amd"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

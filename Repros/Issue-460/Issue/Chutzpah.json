@@ -1,0 +1,22 @@
+﻿{
+  "Framework": "qunit",
+  "TestHarnessReferenceMode": "AMD",
+  "TestHarnessLocationMode": "SettingsFileAdjacent",
+  "TypeScriptModuleKind": "AMD",
+  "AMDBaseUrl": "wwwroot",  
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ],
+    "Paths": [
+      { "OutputPath": "wwwroot" }
+    ]
+  },
+  "References": [
+    { "Path": "require.js" }
+  ],
+  "Tests": [    
+    { "Includes": [ "*Test2.js" ] }
+  ]
+
+}
